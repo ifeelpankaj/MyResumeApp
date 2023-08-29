@@ -2,7 +2,7 @@ import React from "react";
 import {
   AiFillGithub,
   AiFillInstagram,
-  AiFillYoutube,
+  AiFillLinkedin,
   AiOutlineArrowUp,
 } from "react-icons/ai";
 
@@ -25,13 +25,13 @@ const Footer = () => {
         <h2>Social Media</h2>
 
         <article>
-          <a href="https://youtube.com/6packprogrammer" target={"blank"}>
-            <AiFillYoutube />
+          <a href="https://www.linkedin.com/in/ifeelpankaj/" target={"blank"}>
+            <AiFillLinkedin />
           </a>
-          <a href="https://instagram.com/meabhisingh" target={"blank"}>
+          <a href="https://instagram.com/ifeelpankaj" target={"blank"}>
             <AiFillInstagram />
           </a>
-          <a href="https://github.com/meabhisingh" target={"blank"}>
+          <a href="https://github.com/ifeelpankaj" target={"blank"}>
             <AiFillGithub />
           </a>
         </article>
