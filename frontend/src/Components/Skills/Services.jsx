@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import skills from "../../Assets/skills.json";
+
+import { useSelector } from "react-redux";
 
 const Skills = () => {
   const animations = {
@@ -14,6 +15,9 @@ const Skills = () => {
       y: 20,
     },
   };
+
+  const { user } = useSelector((state) => state.user);
+
 
 
   return (
@@ -56,7 +60,7 @@ const Skills = () => {
         <h3>5+</h3>
         <p>Years Experience</p>
       </motion.div>
-      {skills.skills.map((skill, index) => (
+      {/* {user.skills.map((skill, index) => (
         <motion.div
           className="serviceBox"
           key={index}
@@ -67,7 +71,23 @@ const Skills = () => {
           <img src={skill.image.url} alt={skill.name} />
           <span>{skill.name}</span>
         </motion.div>
-      ))}
+      ))} */}
+        {user && user.skills ? (
+          user.skills.map((skill, index) => (
+            <motion.div
+              className="serviceBox"
+              key={index}
+              whileInView={animations.whileInView}
+              initial={animations.initial}
+              transition={{ delay: index * 0.1 }}
+            >
+              <img src={skill.image.url} alt={skill.name} />
+              <span>{skill.name}</span>
+            </motion.div>
+          ))
+        ) : (
+          <p>No skills available.</p>
+        )}
     </section>
   </div>
 //   <div id="services">
