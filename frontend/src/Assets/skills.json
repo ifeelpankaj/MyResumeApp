@@ -1,0 +1,89 @@
+{
+    "skills": [
+      {
+        "name": "DevOps",
+        "category": "IT",
+        "image": {
+          "public_id": "devops-public-id",
+          "url": "https://res.cloudinary.com/attar-shop/image/upload/v1692956990/devops_al7ajs.png  "
+        }
+      },
+      {
+        "name": "DevOps",
+        "category": "IT",
+        "image": {
+          "public_id": "devops-public-id",
+          "url": "https://res.cloudinary.com/attar-shop/image/upload/v1692956990/devops_al7ajs.png  "
+        }
+      },
+      {
+        "name": "DevOps",
+        "category": "IT",
+        "image": {
+          "public_id": "devops-public-id",
+          "url": "https://res.cloudinary.com/attar-shop/image/upload/v1692956990/devops_al7ajs.png  "
+        }
+      },
+      {
+        "name": "Linux",
+        "category": "IT",
+        "image": {
+          "public_id": "linux-public-id",
+          "url": "https://res.cloudinary.com/attar-shop/image/upload/v1692956990/linux_vv1xhv.png"
+        }
+      },
+      {
+        "name": "JavaScript",
+        "category": "Programming",
+        "image": {
+          "public_id": "javascript-public-id",
+          "url": "https://res.cloudinary.com/attar-shop/image/upload/v1692956991/JS_ykn651.png"
+        }
+      },
+      {
+        "name": "JavaScript",
+        "category": "Programming",
+        "image": {
+          "public_id": "javascript-public-id",
+          "url": "https://res.cloudinary.com/attar-shop/image/upload/v1692956991/JS_ykn651.png"
+        }
+      },{
+        "name": "JavaScript",
+        "category": "Programming",
+        "image": {
+          "public_id": "javascript-public-id",
+          "url": "https://res.cloudinary.com/attar-shop/image/upload/v1692956991/JS_ykn651.png"
+        }
+      },{
+        "name": "JavaScript",
+        "category": "Programming",
+        "image": {
+          "public_id": "javascript-public-id",
+          "url": "https://res.cloudinary.com/attar-shop/image/upload/v1692956991/JS_ykn651.png"
+        }
+      },{
+        "name": "JavaScript",
+        "category": "Programming",
+        "image": {
+          "public_id": "javascript-public-id",
+          "url": "https://res.cloudinary.com/attar-shop/image/upload/v1692956991/JS_ykn651.png"
+        }
+      },{
+        "name": "JavaScript",
+        "category": "Programming",
+        "image": {
+          "public_id": "javascript-public-id",
+          "url": "https://res.cloudinary.com/attar-shop/image/upload/v1692956991/JS_ykn651.png"
+        }
+      },
+      {
+        "name": "Docker",
+        "category": "DevOps",
+        "image": {
+          "public_id": "docker-public-id",
+          "url": "https://res.cloudinary.com/attar-shop/image/upload/v1692956990/docker_khw9wy.png"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,26 @@
+/* LoginForm.scss */
+
+.login {
+    background-color: hsl(219, 48%, 8%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    .loginContainer {
+      width: 50%;
+      border-radius: 5px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.336);
+  
+      .loginForm {
+        background-color: inherit;
+        border-radius: 5px;
+        height: 70vh;
+        padding: 2vmax;
+      }
+    }
+  }
+  
