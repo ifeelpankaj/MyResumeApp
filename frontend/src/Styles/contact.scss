@@ -72,14 +72,21 @@
 }
 
 @media screen and (max-width: 600px) {
-  .contact {
-    height: 70vh;
-    > form {
-      width: 100%;
-      height: 100%;
-    }
-    .formBorder {
-      display: none;
-    }
-  }
+  #contact > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 2rem;
+    width: 60%;
+    height: 80%;
+    justify-content: center;
+}
+#contact .formBorder {
+  width: 140px;
+}
+#contact > form > input, #contact > form > textarea, #contact > form > button {
+
+  width: 100%;
+}
 }
