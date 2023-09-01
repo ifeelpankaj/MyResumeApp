@@ -28,8 +28,8 @@ const Contact = () => {
         message,
       };
       await emailjs.send(
-        "service_buu9pwe",
-        "template_ke7ha6o",
+        "service_vfug7fd",
+        "template_cy2u8om",
         templateParams,
         "_j_YNay8dVR9LELgB"
       );
