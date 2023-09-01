@@ -115,7 +115,7 @@ const AddSkills = () => {
             </div>
           </div>
 
-          <Stack spacing={6} direction="row">
+          <Stack spacing={6} direction="row" wrap='wrap'>
             {user.skills ? (
               user.skills.map((skill) => (
                 <SkillCard key={skill._id} skill={skill} />
