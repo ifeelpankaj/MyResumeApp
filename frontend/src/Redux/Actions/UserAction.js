@@ -129,7 +129,7 @@ export const updateUser =
 export const addSkills = (name, category, image) => async (dispatch) => {
   try {
     dispatch({
-      type: "ADD_SKILLS_REQUEST",
+      type: "ADD_SKIILS_REQUEST",
     });
 
     const { data } = await axios.post(
@@ -145,7 +145,7 @@ export const addSkills = (name, category, image) => async (dispatch) => {
     );
 
     dispatch({
-      type: "ADDSKILLSE_SUCCESS",
+      type: "ADD_SKILLS_SUCCESS",
       payload: data.message,
     });
   } catch (error) {
